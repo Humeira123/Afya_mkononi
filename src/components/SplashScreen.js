@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, Image, StatusBar } from 'react-native';
 const SplashScreen = ({ navigation }) => {
     useEffect(() => {
       setTimeout(() => {
-        navigation.replace('OnboardScreen'); // Navigate to HomeScreen
+        navigation.replace('Onboard'); // Navigate to HomeScreen
       }, 3000); // 3-second delay
     }, []);
 
@@ -13,7 +13,7 @@ const SplashScreen = ({ navigation }) => {
       <StatusBar backgroundColor="#4CAF50" barStyle="light-content" />
       <View style={styles.logoContainer}>
         <Image
-          source={require('../assets/health logo.jpg')}
+          source={require('../../src/assets/health logo.jpg')}
           style={styles.logo}
         />
       </View>

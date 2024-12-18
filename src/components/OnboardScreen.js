@@ -10,19 +10,19 @@ const OnboardScreen = ({ navigation }) => {
       pages={[
         {
           backgroundColor: '#fff',
-          image: <Image source={require('../src/assets/Welcom to AfyaMkononi.jpg')} style={styles.image} />,
+          image: <Image source={require('../../src/assets/Welcome to AfyaMkononi.jpg')} style={styles.image} />,
           title: 'Welcome to AfyaMkononi',
           subtitle: 'Your health is just a tap away.',
         },
         {
           backgroundColor: '#fff',
-          image: <Image source={require('../assets/Track Your Health.jpg')} style={styles.image} />,
+          image: <Image source={require('../../src/assets/Track Your Health.jpg')} style={styles.image} />,
           title: 'Track Your Health',
           subtitle: 'Keep track of your medical data with ease.',
         },
         {
           backgroundColor: '#fff',
-          image: <Image source={require('../src/assets/Get Health Insights.jpg')} style={styles.image} />,
+          image: <Image source={require('../../src/assets/Get Health Insights.jpg')} style={styles.image} />,
           title: 'Get Health Insights',
           subtitle: 'Personalized health tips and insights based on your data.',
         },
